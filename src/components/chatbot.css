@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f9;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+.messages {
+  height: 400px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.2);
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  line-height: 1.6;
+}
+
+.message.user {
+  background-color: #0084ff;
+  color: white;
+  text-align: right;
+  margin-left: 20%;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.2);
+}
+
+.message.bot {
+  background-color: #f3f3f3;
+  margin-right: 20%;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.2);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: #0084ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: #0069d9;
+}
